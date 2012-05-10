@@ -24,8 +24,14 @@ It also provides methods for checking Status types.</description>
   <email>mike@php.net</email>
   <active>yes</active>
  </lead>
- <date>2012-01-12</date>
- <time>08:40:24</time>
+ <lead>
+  <name>Daniel O&apos;Connor</name>
+  <user>doconnor</user>
+  <email>doconnor@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2012-05-10</date>
+ <time>23:59:45</time>
  <version>
   <release>0.1.0</release>
   <api>0.1.0</api>
@@ -40,15 +46,17 @@ Forked from HTTP_Header
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
-   <file baseinstalldir="/" md5sum="f84decd7c48c738386540ce95af694d6" name="/HTTP/Header2.php" role="php" />
-   <file baseinstalldir="/" md5sum="72dd17c7a671932979f11b3444258c92" name="/HTTP/Header2/Cache.php" role="php" />
-   <file baseinstalldir="/" md5sum="509eaea5377309cd3214a971680f09c2" name="/tests/cacheresponse.php" role="php" />
-   <file baseinstalldir="/" md5sum="3ef6b01d0fdda7e8bdaad96a76fcda37" name="/tests/HTTP_Header2Test.php" role="php" />
-   <file baseinstalldir="/" md5sum="92e9c4d1f5441f95e2136612e4a0bfab" name="/tests/HTTP_Header2_CacheTest.php" role="php" />
-   <file baseinstalldir="/" md5sum="8ae54da06d5cfa08332695cd7a0f617f" name="/tests/README.txt" role="data" />
-   <file baseinstalldir="/" md5sum="700b69ad3b92b4de64eb9eb7cb77b6c2" name="/tests/response.php" role="php" />
+   <file baseinstalldir="/" md5sum="b111f88f65a3a0b627c96a0ac508a7a7" name="HTTP/Header2.php" role="php" />
+   <file baseinstalldir="/" md5sum="ea9a8b7c2d5a99f377b786fa44a73826" name="HTTP/Header2/Cache.php" role="php" />
+   <file baseinstalldir="/" md5sum="eb4a0c7356e4819087d7b25060e3f311" name="tests/cacheresponse.php" role="test" />
+   <file baseinstalldir="/" md5sum="7d48e62d48fb850d56c91598b523bd9a" name="tests/HTTP_Header2Test.php" role="test" />
+   <file baseinstalldir="/" md5sum="19094be7cae0db9511d38428ac70be41" name="tests/HTTP_Header2_CacheTest.php" role="test" />
+   <file baseinstalldir="/" md5sum="399ee27ddd1ca2accc3f81e009edba14" name="tests/README.txt" role="test" />
+   <file baseinstalldir="/" md5sum="4a79a49bffaad0eabd2455a50648dbd8" name="tests/response.php" role="test" />
+   <file baseinstalldir="/" md5sum="4cb0b709d93232ce3da26499f400fd99" name="build.xml" role="data" />
    <file baseinstalldir="/" md5sum="b4641eee2eca1a10d4562345a782b4ba" name="LICENSE" role="doc" />
-   <file baseinstalldir="/" md5sum="4ee71b5e08a7dcb7d983224b77e04764" name="README" role="data" />
+   <file baseinstalldir="/" md5sum="2a4a79931ce30f3eb9b7b34803a2860b" name="phpunit.xml" role="data" />
+   <file baseinstalldir="/" md5sum="1060c1de24137c51f535ff45996cab6c" name="README" role="data" />
   </dir>
  </contents>
  <dependencies>
@@ -77,7 +85,7 @@ Forked from HTTP_Header
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2012-01-12</date>
+   <date>2012-05-10</date>
    <license>BSD, revised</license>
    <notes>
 Forked from HTTP_Header
